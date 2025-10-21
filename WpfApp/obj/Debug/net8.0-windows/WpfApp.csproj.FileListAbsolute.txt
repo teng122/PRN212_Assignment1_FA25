@@ -1,0 +1,11 @@
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\WpfApp.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\Views\RoomManagementWindow.g.cs
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\Views\RoomTypeManagementWindow.g.cs
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\WpfApp_MarkupCompile.cache
+C:\Users\ADMIN\source\repos\PRN212_Assignment1_FA25_QE190079\WpfApp\obj\Debug\net8.0-windows\WpfApp_MarkupCompile.lref

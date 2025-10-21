@@ -1,0 +1,587 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\views\\customermanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\customermanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\helpers\\stringnulloremptytovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\helpers\\stringnulloremptytovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\views\\roomtypemanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\roomtypemanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\views\\roommanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\roommanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\.vsdbgsrc\\aad6be2495d0a786b94b3514a5b6903407fe2d6a75ad7e505df6a9d895927867\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\viewmodels\\roomtypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\roomtypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\viewmodels\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\helpers\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\helpers\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\services\\roominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\roominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\services\\roomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\roomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\repositories\\roomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\roomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\dataaccesslayer\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\dataaccesslayer\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C411E5-9F28-438E-89C1-08BCF44D1C69}|BusinessObject\\BusinessObject.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\businessobject\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C411E5-9F28-438E-89C1-08BCF44D1C69}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C411E5-9F28-438E-89C1-08BCF44D1C69}|BusinessObject\\BusinessObject.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\businessobject\\roominformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C411E5-9F28-438E-89C1-08BCF44D1C69}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\roominformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C411E5-9F28-438E-89C1-08BCF44D1C69}|BusinessObject\\BusinessObject.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\businessobject\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C411E5-9F28-438E-89C1-08BCF44D1C69}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\repositories\\iroominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iroominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25_qe190079\\repositories\\roominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\roominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StringNullOrEmptyToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Helpers\\StringNullOrEmptyToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Helpers\\StringNullOrEmptyToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Helpers\\StringNullOrEmptyToVisibilityConverter.cs",
+              "RelativeToolTip": "WpfApp\\Helpers\\StringNullOrEmptyToVisibilityConverter.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T07:41:33.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:19:13.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\ViewModels\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\ViewModels\\CustomerViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\CustomerViewModel.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAYwF4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:01:17.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerManagementWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Views\\CustomerManagementWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\CustomerManagementWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Views\\CustomerManagementWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\CustomerManagementWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-19T06:36:12.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\LoginWindow.xaml",
+              "RelativeToolTip": "WpfApp\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-19T06:01:13.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\App.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\App.xaml",
+              "RelativeToolTip": "WpfApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-19T06:01:11.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:21:16.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomTypeManagementWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Views\\RoomTypeManagementWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\RoomTypeManagementWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Views\\RoomTypeManagementWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\RoomTypeManagementWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-19T06:41:55.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomManagementWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Views\\RoomManagementWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\RoomManagementWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Views\\RoomManagementWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\RoomManagementWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-19T06:41:16.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Services\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:06:34.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\CustomerDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\CustomerDAO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:01:24.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WpfApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\appsettings.json",
+              "RelativeToolTip": "WpfApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T06:15:58.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-19T06:04:48.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\.vsdbgsrc\\aad6be2495d0a786b94b3514a5b6903407fe2d6a75ad7e505df6a9d895927867\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\aad6be2495d0a786b94b3514a5b6903407fe2d6a75ad7e505df6a9d895927867\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\.vsdbgsrc\\aad6be2495d0a786b94b3514a5b6903407fe2d6a75ad7e505df6a9d895927867\\XamlReader.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\aad6be2495d0a786b94b3514a5b6903407fe2d6a75ad7e505df6a9d895927867\\XamlReader.cs [Read Only]",
+              "ViewState": "AgIAALEBAAAAAAAAAADgv7UBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T07:27:37.064Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoomTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\ViewModels\\RoomTypeViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\RoomTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\ViewModels\\RoomTypeViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\RoomTypeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:01:17.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoomViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\ViewModels\\RoomViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\RoomViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\ViewModels\\RoomViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\RoomViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:01:17.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Helpers\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Helpers\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Helpers\\RelayCommand.cs",
+              "RelativeToolTip": "WpfApp\\Helpers\\RelayCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:01:17.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Helpers\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Helpers\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\Helpers\\BaseViewModel.cs",
+              "RelativeToolTip": "WpfApp\\Helpers\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:03:09.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:05:17.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WpfApp.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\WpfApp.csproj",
+              "RelativeDocumentMoniker": "WpfApp\\WpfApp.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\WpfApp.csproj",
+              "RelativeToolTip": "WpfApp\\WpfApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-19T06:14:03.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WpfApp\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "WpfApp\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T06:02:06.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoomInformationService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\RoomInformationService.cs",
+              "RelativeDocumentMoniker": "Services\\RoomInformationService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\RoomInformationService.cs",
+              "RelativeToolTip": "Services\\RoomInformationService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T05:57:32.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RoomTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\RoomTypeService.cs",
+              "RelativeDocumentMoniker": "Services\\RoomTypeService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\RoomTypeService.cs",
+              "RelativeToolTip": "Services\\RoomTypeService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T05:56:58.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Services.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-19T05:56:22.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RoomTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\RoomTypeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RoomTypeRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\RoomTypeRepository.cs",
+              "RelativeToolTip": "Repositories\\RoomTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:05:11.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:05:10.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RoomInformationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\RoomInformationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RoomInformationRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\RoomInformationRepository.cs",
+              "RelativeToolTip": "Repositories\\RoomInformationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:05:10.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRoomInformationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\IRoomInformationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRoomInformationRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\IRoomInformationRepository.cs",
+              "RelativeToolTip": "Repositories\\IRoomInformationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:05:10.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RoomTypeDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\RoomTypeDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\RoomTypeDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\RoomTypeDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\RoomTypeDAO.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:03:00.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoomInformationDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\RoomInformationDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\RoomInformationDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\RoomInformationDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\RoomInformationDAO.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwDMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:02:53.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DataAccessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-18T15:02:32.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RoomInformation.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\RoomInformation.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\RoomInformation.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\RoomInformation.cs",
+              "RelativeToolTip": "BusinessObject\\RoomInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T14:59:01.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\RoomType.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\RoomType.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\RoomType.cs",
+              "RelativeToolTip": "BusinessObject\\RoomType.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T14:57:30.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\Customer.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Customer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\Customer.cs",
+              "RelativeToolTip": "BusinessObject\\Customer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA7wBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T14:56:05.18Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
