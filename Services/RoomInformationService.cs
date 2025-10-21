@@ -1,71 +1,57 @@
 ﻿using BusinessObject;
 using Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Services
 {
-    public class RoomInformationService
+    public class RoomInformationService : IRoomInformationService
     {
-        private readonly IRoomInformationRepository _repo;
-        private readonly IRoomTypeRepository _typeRepo;
+        private readonly IRoomInformationRepository _roomRepository;
 
         public RoomInformationService()
         {
-            _repo = new RoomInformationRepository();
-            _typeRepo = new RoomTypeRepository();
+            _roomRepository = new RoomInformationRepository();
         }
 
         public List<RoomInformation> GetAllRooms()
-        {
-            var rooms = _repo.GetRooms().Where(r => r.RoomStatus == 1).ToList();
+            => _roomRepository.GetRooms().Where(r => r.RoomStatus == 1).ToList();
 
-            // gắn RoomType để hiển thị dễ hơn trong UI
-            foreach (var r in rooms)
-                r.RoomType = _typeRepo.GetRoomTypeById(r.RoomTypeID);
-
-            return rooms;
-        }
+        public RoomInformation? GetRoomById(int id)
+            => _roomRepository.GetRoomById(id);
 
         public void AddRoom(RoomInformation room)
         {
-            if (string.IsNullOrWhiteSpace(room.RoomNumber))
-                throw new Exception("Số phòng không được để trống.");
-            if (room.RoomPricePerDate <= 0)
-                throw new Exception("Giá phòng phải lớn hơn 0.");
-
-            _repo.SaveRoom(room);
+            ValidateRoom(room);
+            _roomRepository.AddRoom(room);
         }
 
         public void UpdateRoom(RoomInformation room)
         {
-            if (string.IsNullOrWhiteSpace(room.RoomNumber))
-                throw new Exception("Số phòng không được để trống.");
-            _repo.UpdateRoom(room);
+            ValidateRoom(room);
+            _roomRepository.UpdateRoom(room);
         }
 
-        public void DeleteRoom(int id) => _repo.DeleteRoom(id);
+        public void DeleteRoom(int id)
+            => _roomRepository.DeleteRoom(id);
 
-        // 🔎 Tìm kiếm phòng theo mô tả hoặc loại
         public List<RoomInformation> SearchRooms(string keyword)
-        {
-            var data = GetAllRooms();
-            if (string.IsNullOrWhiteSpace(keyword)) return data;
+            => _roomRepository.SearchRooms(keyword).Where(r => r.RoomStatus == 1).ToList();
 
-            return data.Where(r =>
-                r.RoomDescription.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
-                (r.RoomType?.RoomTypeName.Contains(keyword, StringComparison.OrdinalIgnoreCase) ?? false))
-                .ToList();
-        }
-
-        // 📊 Sắp xếp phòng theo giá
-        public List<RoomInformation> SortRoomsByPrice(bool ascending = true)
+        private void ValidateRoom(RoomInformation room)
         {
-            var data = GetAllRooms();
-            return ascending
-                ? data.OrderBy(r => r.RoomPricePerDate).ToList()
-                : data.OrderByDescending(r => r.RoomPricePerDate).ToList();
+            if (string.IsNullOrWhiteSpace(room.RoomNumber))
+                throw new Exception("Room number is required");
+
+            if (room.RoomNumber.Length > 50)
+                throw new Exception("Room number must not exceed 50 characters");
+
+            if (room.RoomDescription.Length > 220)
+                throw new Exception("Room description must not exceed 220 characters");
+
+            if (room.RoomMaxCapacity <= 0)
+                throw new Exception("Room max capacity must be greater than 0");
+
+            if (room.RoomPricePerDate <= 0)
+                throw new Exception("Room price must be greater than 0");
         }
     }
 }

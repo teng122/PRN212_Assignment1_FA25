@@ -1,34 +1,21 @@
 ﻿using BusinessObject;
 using Repositories;
-using System.Collections.Generic;
 
 namespace Services
 {
-    public class RoomTypeService
+    public class RoomTypeService : IRoomTypeService
     {
-        private readonly IRoomTypeRepository _repo;
+        private readonly IRoomTypeRepository _roomTypeRepository;
 
         public RoomTypeService()
         {
-            _repo = new RoomTypeRepository();
+            _roomTypeRepository = new RoomTypeRepository();
         }
 
-        public List<RoomType> GetAllRoomTypes() => _repo.GetRoomTypes();
+        public List<RoomType> GetAllRoomTypes()
+            => _roomTypeRepository.GetRoomTypes();
 
-        public void AddRoomType(RoomType type)
-        {
-            if (string.IsNullOrWhiteSpace(type.RoomTypeName))
-                throw new Exception("Tên loại phòng không được để trống.");
-            _repo.SaveRoomType(type);
-        }
-
-        public void UpdateRoomType(RoomType type)
-        {
-            if (string.IsNullOrWhiteSpace(type.RoomTypeName))
-                throw new Exception("Tên loại phòng không được để trống.");
-            _repo.UpdateRoomType(type);
-        }
-
-        public void DeleteRoomType(int id) => _repo.DeleteRoomType(id);
+        public RoomType? GetRoomTypeById(int id)
+            => _roomTypeRepository.GetRoomTypeById(id);
     }
 }

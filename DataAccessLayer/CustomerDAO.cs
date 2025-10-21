@@ -1,57 +1,83 @@
 ﻿using BusinessObject;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace DataAccessLayer
+namespace DAO
 {
     public class CustomerDAO
     {
-        private static List<Customer> customers = new List<Customer>();
+        private static CustomerDAO? _instance;
+        private static readonly object _lock = new object();
 
-        // Khởi tạo dữ liệu mẫu
-        static CustomerDAO()
+        public static CustomerDAO Instance
         {
-            customers = new List<Customer>
+            get
             {
-                new Customer { CustomerID = 1, CustomerFullName = "Nguyen Van A", Telephone = "0123456789", EmailAddress = "a@gmail.com", CustomerBirthday = new DateTime(1999, 5, 12), CustomerStatus = 1, Password = "123" },
-                new Customer { CustomerID = 2, CustomerFullName = "Tran Thi B", Telephone = "0987654321", EmailAddress = "b@gmail.com", CustomerBirthday = new DateTime(2000, 10, 2), CustomerStatus = 1, Password = "123" }
-            };
-        }
-
-        public static List<Customer> GetCustomers() => customers;
-
-        public static Customer? GetCustomerById(int id)
-            => customers.FirstOrDefault(c => c.CustomerID == id);
-
-        public static void SaveCustomer(Customer c)
-        {
-            int nextId = customers.Any() ? customers.Max(x => x.CustomerID) + 1 : 1;
-            c.CustomerID = nextId;
-            customers.Add(c);
-        }
-
-        public static void UpdateCustomer(Customer c)
-        {
-            var existing = GetCustomerById(c.CustomerID);
-            if (existing != null)
-            {
-                existing.CustomerFullName = c.CustomerFullName;
-                existing.Telephone = c.Telephone;
-                existing.EmailAddress = c.EmailAddress;
-                existing.CustomerBirthday = c.CustomerBirthday;
-                existing.Password = c.Password;
-                existing.CustomerStatus = c.CustomerStatus;
+                if (_instance == null)
+                {
+                    lock (_lock)
+                    {
+                        if (_instance == null)
+                        {
+                            _instance = new CustomerDAO();
+                        }
+                    }
+                }
+                return _instance;
             }
         }
 
-        public static void DeleteCustomer(int id)
+        public List<Customer> GetCustomers()
         {
-            var existing = GetCustomerById(id);
-            if (existing != null)
+            return DataProvider.Instance.Customers;
+        }
+
+        public Customer? GetCustomerById(int id)
+        {
+            return DataProvider.Instance.Customers.FirstOrDefault(c => c.CustomerID == id);
+        }
+
+        public Customer? GetCustomerByEmail(string email)
+        {
+            return DataProvider.Instance.Customers.FirstOrDefault(c => c.EmailAddress == email);
+        }
+
+        public void AddCustomer(Customer customer)
+        {
+            customer.CustomerID = DataProvider.Instance.Customers.Any()
+                ? DataProvider.Instance.Customers.Max(c => c.CustomerID) + 1
+                : 1;
+            DataProvider.Instance.Customers.Add(customer);
+        }
+
+        public void UpdateCustomer(Customer customer)
+        {
+            var existingCustomer = GetCustomerById(customer.CustomerID);
+            if (existingCustomer != null)
             {
-                // Xóa mềm
-                existing.CustomerStatus = 2;
+                existingCustomer.CustomerFullName = customer.CustomerFullName;
+                existingCustomer.Telephone = customer.Telephone;
+                existingCustomer.EmailAddress = customer.EmailAddress;
+                existingCustomer.CustomerBirthday = customer.CustomerBirthday;
+                existingCustomer.CustomerStatus = customer.CustomerStatus;
+                existingCustomer.Password = customer.Password;
             }
+        }
+
+        public void DeleteCustomer(int id)
+        {
+            var customer = GetCustomerById(id);
+            if (customer != null)
+            {
+                customer.CustomerStatus = 2; // Soft delete
+            }
+        }
+
+        public List<Customer> SearchCustomers(string keyword)
+        {
+            return DataProvider.Instance.Customers
+                .Where(c => c.CustomerFullName.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
+                           c.EmailAddress.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
+                           c.Telephone.Contains(keyword))
+                .ToList();
         }
     }
 }

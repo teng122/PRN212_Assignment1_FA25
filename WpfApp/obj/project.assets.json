@@ -678,11 +678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\WpfApp.csproj",
-      "projectName": "WpfApp",
-      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\WpfApp.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\WpfApp\\WPFApp.csproj",
+      "projectName": "WPFApp",
+      "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\WpfApp\\WPFApp.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\WpfApp\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\WpfApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -703,14 +703,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj"
             },
-            "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Services\\Services.csproj"
+            "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Services\\Services.csproj"
             }
           }
         }

@@ -1,5 +1,4 @@
 using BusinessObject;
-using System.Collections.Generic;
 
 namespace Repositories
 {
@@ -7,8 +6,10 @@ namespace Repositories
     {
         List<Customer> GetCustomers();
         Customer? GetCustomerById(int id);
-        void SaveCustomer(Customer customer);
+        Customer? GetCustomerByEmail(string email);
+        void AddCustomer(Customer customer);
         void UpdateCustomer(Customer customer);
         void DeleteCustomer(int id);
+        List<Customer> SearchCustomers(string keyword);
     }
 }

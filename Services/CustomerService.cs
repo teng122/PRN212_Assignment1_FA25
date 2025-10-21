@@ -1,12 +1,9 @@
 ﻿using BusinessObject;
 using Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Services
 {
-    public class CustomerService
+    public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _customerRepository;
 
@@ -18,53 +15,49 @@ namespace Services
         public List<Customer> GetAllCustomers()
             => _customerRepository.GetCustomers().Where(c => c.CustomerStatus == 1).ToList();
 
-        public void AddCustomer(Customer c)
+        public Customer? GetCustomerById(int id)
+            => _customerRepository.GetCustomerById(id);
+
+        public Customer? GetCustomerByEmail(string email)
+            => _customerRepository.GetCustomerByEmail(email);
+
+        public void AddCustomer(Customer customer)
         {
-            if (string.IsNullOrWhiteSpace(c.CustomerFullName))
-                throw new Exception("Tên khách hàng không được để trống.");
-            if (string.IsNullOrWhiteSpace(c.EmailAddress))
-                throw new Exception("Email không được để trống.");
-            if (!c.EmailAddress.Contains("@"))
-                throw new Exception("Email không hợp lệ.");
-
-            // kiểm tra trùng email
-            var existing = _customerRepository.GetCustomers()
-                .FirstOrDefault(x => x.EmailAddress.Equals(c.EmailAddress, StringComparison.OrdinalIgnoreCase));
-            if (existing != null)
-                throw new Exception("Email đã tồn tại.");
-
-            _customerRepository.SaveCustomer(c);
+            ValidateCustomer(customer);
+            _customerRepository.AddCustomer(customer);
         }
 
-        public void UpdateCustomer(Customer c)
+        public void UpdateCustomer(Customer customer)
         {
-            if (string.IsNullOrWhiteSpace(c.CustomerFullName))
-                throw new Exception("Tên khách hàng không được để trống.");
-            _customerRepository.UpdateCustomer(c);
+            ValidateCustomer(customer);
+            _customerRepository.UpdateCustomer(customer);
         }
 
-        public void DeleteCustomer(int id) => _customerRepository.DeleteCustomer(id);
+        public void DeleteCustomer(int id)
+            => _customerRepository.DeleteCustomer(id);
 
-        // 🔎 Tìm kiếm khách hàng theo tên hoặc email
         public List<Customer> SearchCustomers(string keyword)
-        {
-            if (string.IsNullOrWhiteSpace(keyword))
-                return GetAllCustomers();
+            => _customerRepository.SearchCustomers(keyword).Where(c => c.CustomerStatus == 1).ToList();
 
-            return _customerRepository.GetCustomers()
-                .Where(c => c.CustomerStatus == 1 &&
-                    (c.CustomerFullName.Contains(keyword, StringComparison.OrdinalIgnoreCase)
-                    || c.EmailAddress.Contains(keyword, StringComparison.OrdinalIgnoreCase)))
-                .ToList();
-        }
-
-        // 📊 Sắp xếp theo tên
-        public List<Customer> SortCustomersByName(bool ascending = true)
+        private void ValidateCustomer(Customer customer)
         {
-            var data = GetAllCustomers();
-            return ascending
-                ? data.OrderBy(c => c.CustomerFullName).ToList()
-                : data.OrderByDescending(c => c.CustomerFullName).ToList();
+            if (string.IsNullOrWhiteSpace(customer.CustomerFullName))
+                throw new Exception("Customer name is required");
+
+            if (string.IsNullOrWhiteSpace(customer.EmailAddress))
+                throw new Exception("Email is required");
+
+            if (string.IsNullOrWhiteSpace(customer.Telephone))
+                throw new Exception("Telephone is required");
+
+            if (customer.CustomerFullName.Length > 50)
+                throw new Exception("Customer name must not exceed 50 characters");
+
+            if (customer.Telephone.Length > 12)
+                throw new Exception("Telephone must not exceed 12 characters");
+
+            if (customer.EmailAddress.Length > 50)
+                throw new Exception("Email must not exceed 50 characters");
         }
     }
 }

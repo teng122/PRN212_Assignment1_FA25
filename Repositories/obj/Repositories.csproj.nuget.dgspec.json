@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\Repositories.csproj": {}
+    "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +100,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,11 +172,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\BusinessObject\\BusinessObject.csproj"
               },
-              "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25_QE190079\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }

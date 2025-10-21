@@ -1,5 +1,4 @@
 using BusinessObject;
-using System.Collections.Generic;
 
 namespace Repositories
 {
@@ -7,8 +6,5 @@ namespace Repositories
     {
         List<RoomType> GetRoomTypes();
         RoomType? GetRoomTypeById(int id);
-        void SaveRoomType(RoomType roomType);
-        void UpdateRoomType(RoomType roomType);
-        void DeleteRoomType(int id);
     }
 }
