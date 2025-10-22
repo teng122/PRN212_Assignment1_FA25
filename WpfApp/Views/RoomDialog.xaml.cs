@@ -1,77 +1,89 @@
-﻿using System.Windows;
+﻿// File: Views/RoomDialog.xaml.cs
+using System.Windows;
 using System.Windows.Controls;
 using BusinessObject;
+using Services;
 
 namespace HotelManager.Views
 {
-    public partial class CustomerDialog : Window
+    public partial class RoomDialog : Window
     {
-        public Customer Customer { get; private set; }
+        public RoomInformation Room { get; private set; }
+        private readonly IRoomTypeService _roomTypeService;
         private bool isEditMode = false;
 
-        public CustomerDialog()
+        public RoomDialog()
         {
             InitializeComponent();
-            Customer = new Customer { CustomerStatus = 1 };
+            _roomTypeService = new RoomTypeService();
+            Room = new RoomInformation { RoomStatus = 1 };
+            LoadRoomTypes();
             cmbStatus.SelectedIndex = 0;
         }
 
-        public CustomerDialog(Customer customer)
+        public RoomDialog(RoomInformation room)
         {
             InitializeComponent();
-            Customer = customer;
+            _roomTypeService = new RoomTypeService();
+            Room = room;
             isEditMode = true;
-            LoadCustomerData();
+            LoadRoomTypes();
+            LoadRoomData();
         }
 
-        private void LoadCustomerData()
+        private void LoadRoomTypes()
         {
-            txtFullName.Text = Customer.CustomerFullName;
-            txtTelephone.Text = Customer.Telephone;
-            txtEmail.Text = Customer.EmailAddress;
-            dpBirthday.SelectedDate = Customer.CustomerBirthday;
-            txtPassword.Password = Customer.Password;
-            cmbStatus.SelectedIndex = Customer.CustomerStatus - 1;
+            cmbRoomType.ItemsSource = _roomTypeService.GetAllRoomTypes();
+        }
+
+        private void LoadRoomData()
+        {
+            txtRoomNumber.Text = Room.RoomNumber;
+            txtDescription.Text = Room.RoomDescription;
+            txtMaxCapacity.Text = Room.RoomMaxCapacity.ToString();
+            txtPrice.Text = Room.RoomPricePerDate.ToString();
+            cmbRoomType.SelectedValue = Room.RoomTypeID;
+            cmbStatus.SelectedIndex = Room.RoomStatus - 1;
         }
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(txtFullName.Text))
+                if (string.IsNullOrWhiteSpace(txtRoomNumber.Text))
                 {
-                    MessageBox.Show("Full name is required.", "Validation Error",
+                    MessageBox.Show("Room number is required.", "Validation Error",
                         MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                if (string.IsNullOrWhiteSpace(txtEmail.Text))
+                if (!int.TryParse(txtMaxCapacity.Text, out int maxCapacity) || maxCapacity <= 0)
                 {
-                    MessageBox.Show("Email is required.", "Validation Error",
+                    MessageBox.Show("Max capacity must be a positive number.", "Validation Error",
                         MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                if (string.IsNullOrWhiteSpace(txtTelephone.Text))
+                if (!decimal.TryParse(txtPrice.Text, out decimal price) || price <= 0)
                 {
-                    MessageBox.Show("Telephone is required.", "Validation Error",
+                    MessageBox.Show("Price must be a positive number.", "Validation Error",
                         MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                if (string.IsNullOrWhiteSpace(txtPassword.Password))
+                if (cmbRoomType.SelectedValue == null)
                 {
-                    MessageBox.Show("Password is required.", "Validation Error",
+                    MessageBox.Show("Please select a room type.", "Validation Error",
                         MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                Customer.CustomerFullName = txtFullName.Text.Trim();
-                Customer.Telephone = txtTelephone.Text.Trim();
-                Customer.EmailAddress = txtEmail.Text.Trim();
-                Customer.CustomerBirthday = dpBirthday.SelectedDate;
-                Customer.Password = txtPassword.Password;
-                Customer.CustomerStatus = int.Parse(((ComboBoxItem)cmbStatus.SelectedItem).Tag.ToString());
+                Room.RoomNumber = txtRoomNumber.Text.Trim();
+                Room.RoomDescription = txtDescription.Text.Trim();
+                Room.RoomMaxCapacity = maxCapacity;
+                Room.RoomPricePerDate = price;
+                Room.RoomTypeID = (int)cmbRoomType.SelectedValue;
+                Room.RoomStatus = int.Parse(((ComboBoxItem)cmbStatus.SelectedItem).Tag.ToString());
 
                 DialogResult = true;
                 Close();
