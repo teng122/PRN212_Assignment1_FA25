@@ -3,68 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\customerdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\customerdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\customermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\customermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\customermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\customermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\roomdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\roomdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\customermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\customermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\roomdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\roomdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\customerdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\customerdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,189 +75,143 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Services\\CustomerService.cs",
-              "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T14:25:09.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp\\Views\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAMwB4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T13:44:21.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "CustomerMainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerMainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp\\Views\\CustomerMainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerMainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp\\Views\\CustomerMainWindow.xaml.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAuwEoAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T13:34:33.695Z"
+              "WhenOpened": "2025-10-23T00:03:58.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CustomerMainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerMainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp\\Views\\CustomerMainWindow.xaml",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerMainWindow.xaml",
               "RelativeToolTip": "WpfApp\\Views\\CustomerMainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T13:33:41.45Z"
+              "WhenOpened": "2025-10-23T00:03:42.48Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\LoginWindow.xaml",
-              "RelativeToolTip": "WpfApp\\Views\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T03:47:48.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Services\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Services\\AuthenticationService.cs",
-              "RelativeToolTip": "Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T13:35:44.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\appsettings.json",
-              "RelativeDocumentMoniker": "WpfApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\appsettings.json",
-              "RelativeToolTip": "WpfApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-21T13:40:12.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\App.xaml",
-              "RelativeDocumentMoniker": "WpfApp\\App.xaml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\App.xaml",
-              "RelativeToolTip": "WpfApp\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T13:37:12.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoomDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\RoomDialog.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\RoomDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\RoomDialog.xaml.cs",
-              "RelativeToolTip": "WpfApp\\Views\\RoomDialog.xaml.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAuwGcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:59:04.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "WpfApp\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\AssemblyInfo.cs",
-              "RelativeToolTip": "WpfApp\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:55:15.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "WPFApp.csproj",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\WpfApp\\WPFApp.csproj",
-              "RelativeDocumentMoniker": "WpfApp\\WPFApp.csproj",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\WpfApp\\WPFApp.csproj",
-              "RelativeToolTip": "WpfApp\\WPFApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-21T03:52:09.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RoomDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\RoomDialog.xaml",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\RoomDialog.xaml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\RoomDialog.xaml",
-              "RelativeToolTip": "WpfApp\\Views\\RoomDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T03:52:19.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CustomerDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerDialog.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\CustomerDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerDialog.xaml.cs",
-              "RelativeToolTip": "WpfApp\\Views\\CustomerDialog.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:51:42.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerDialog.xaml",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\CustomerDialog.xaml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerDialog.xaml",
-              "RelativeToolTip": "WpfApp\\Views\\CustomerDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T03:51:14.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "AdminMainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\AdminMainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp\\Views\\AdminMainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\AdminMainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp\\Views\\AdminMainWindow.xaml.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAhwLEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:49:01.504Z"
+              "WhenOpened": "2025-10-22T23:56:26.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "AdminMainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\AdminMainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp\\Views\\AdminMainWindow.xaml",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\AdminMainWindow.xaml",
               "RelativeToolTip": "WpfApp\\Views\\AdminMainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T03:46:50.064Z"
+              "WhenOpened": "2025-10-22T23:54:26.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataProvider.cs",
+              "RelativeToolTip": "DataAccessLayer\\DataProvider.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAQwNEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:53:52.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Services\\BookingService.cs",
+              "RelativeToolTip": "Services\\BookingService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:53:15.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Services\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Services\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Services\\IBookingService.cs",
+              "RelativeToolTip": "Services\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:52:46.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:51:30.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Repositories\\IBookingRepository.cs",
+              "RelativeToolTip": "Repositories\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:51:06.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingDetailDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\BookingDetailDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BookingDetailDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\BookingDetailDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BookingDetailDAO.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:48:51.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingReservationDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\BookingReservationDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BookingReservationDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\BookingReservationDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BookingReservationDAO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:38:40.971Z",
+              "EditorCaption": ""
             }
           ]
         }
